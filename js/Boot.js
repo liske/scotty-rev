@@ -55,7 +55,7 @@ require.config({
 require(["jquery", "jquery-mobile", "js-logger", "JSON.minify"], function ($, jqm, Logger, JSON) {
     'use strict';
 
-    var version = '0.4.5';
+    var version = '0.4.6';
     Logger.useDefaults();
     Logger.setLevel(Logger.INFO);
 
